@@ -14,12 +14,10 @@ enum HBZoomDirection {
 }
 
 @IBDesignable
-class HBZoomSemiModalViewController: HBSlideSemiModalNavigationController, HBSlideModalSubclassing {
-    @IBInspectable var zoomExtraWidthPercentage: CGFloat = 0.2
-    
+class HBZoomSemiModalViewController: HBSlideSemiModalNavigationController, HBSlideModalSubclassing {   
     override func startedDragging() { }
     
-    var previousInset: CGFloat?
+    private var previousInset: CGFloat?
     
     var zoomDirection = HBZoomDirection.ToRight
     
