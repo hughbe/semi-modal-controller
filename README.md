@@ -3,8 +3,8 @@ A libary that allows you to present a UINavigationController semi modally. Desig
 
 Screenshots
 --------------
-![alt text](https://github.com/hughbe/SemiModalNavigationController/blob/master/Screenshots/Screenshot1.png "Screenshot 1")
-![alt text](https://github.com/hughbe/SemiModalNavigationController/blob/master/Screenshots/Screenshot2.png "Screenshot 2")
+![alt text](https://github.com/hughbe/SemiModalNavigationController/blob/master/resources/screenshots/1.png "Screenshot 1")
+![alt text](https://github.com/hughbe/SemiModalNavigationController/blob/master/resources/screenshots/2.png "Screenshot 2")
 
 How to setup
 --------------
