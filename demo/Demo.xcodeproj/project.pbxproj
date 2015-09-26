@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1C5E441B42F32E0095ACF1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E1C5E3C1B42F32E0095ACF1 /* LaunchScreen.xib */; };
+		1E1C5E451B42F32E0095ACF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1C5E3E1B42F32E0095ACF1 /* Main.storyboard */; };
+		1E1C5E461B42F32E0095ACF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1C5E411B42F32E0095ACF1 /* AppDelegate.swift */; };
+		1E1C5E471B42F32E0095ACF1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1C5E421B42F32E0095ACF1 /* Images.xcassets */; };
+		1E1C5E4E1B42F34F0095ACF1 /* HBSemiModalNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1C5E4A1B42F34F0095ACF1 /* HBSemiModalNavigationController.swift */; };
+		1E1C5E4F1B42F34F0095ACF1 /* HBSemiModalStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1C5E4B1B42F34F0095ACF1 /* HBSemiModalStoryboardSegue.swift */; };
+		1E1C5E501B42F34F0095ACF1 /* HBSlideSemiModalNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1C5E4C1B42F34F0095ACF1 /* HBSlideSemiModalNavigationController.swift */; };
+		1E1C5E511B42F34F0095ACF1 /* HBZoomSemiModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1C5E4D1B42F34F0095ACF1 /* HBZoomSemiModalViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E1C5E3D1B42F32E0095ACF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		1E1C5E3F1B42F32E0095ACF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		1E1C5E411B42F32E0095ACF1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E1C5E421B42F32E0095ACF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E1C5E431B42F32E0095ACF1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E1C5E4A1B42F34F0095ACF1 /* HBSemiModalNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSemiModalNavigationController.swift; sourceTree = "<group>"; };
+		1E1C5E4B1B42F34F0095ACF1 /* HBSemiModalStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSemiModalStoryboardSegue.swift; sourceTree = "<group>"; };
+		1E1C5E4C1B42F34F0095ACF1 /* HBSlideSemiModalNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSlideSemiModalNavigationController.swift; sourceTree = "<group>"; };
+		1E1C5E4D1B42F34F0095ACF1 /* HBZoomSemiModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBZoomSemiModalViewController.swift; sourceTree = "<group>"; };
+		1EBA06BF1B415D3C00FC2E47 /* Semi Modal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Semi Modal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EBA06BC1B415D2F00FC2E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E1C5E401B42F32E0095ACF1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E1C5E3C1B42F32E0095ACF1 /* LaunchScreen.xib */,
+				1E1C5E411B42F32E0095ACF1 /* AppDelegate.swift */,
+				1E1C5E421B42F32E0095ACF1 /* Images.xcassets */,
+				1E1C5E431B42F32E0095ACF1 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E1C5E491B42F34F0095ACF1 /* HBSemiModal */ = {
+			isa = PBXGroup;
+			children = (
+				1E1C5E4B1B42F34F0095ACF1 /* HBSemiModalStoryboardSegue.swift */,
+				1E1C5E4A1B42F34F0095ACF1 /* HBSemiModalNavigationController.swift */,
+				1E1C5E4C1B42F34F0095ACF1 /* HBSlideSemiModalNavigationController.swift */,
+				1E1C5E4D1B42F34F0095ACF1 /* HBZoomSemiModalViewController.swift */,
+			);
+			name = HBSemiModal;
+			path = ../HBSemiModal;
+			sourceTree = "<group>";
+		};
+		1EBA06B61B415D2E00FC2E47 = {
+			isa = PBXGroup;
+			children = (
+				1E1C5E3E1B42F32E0095ACF1 /* Main.storyboard */,
+				1E1C5E491B42F34F0095ACF1 /* HBSemiModal */,
+				1E1C5E401B42F32E0095ACF1 /* Supporting Files */,
+				1EBA06C01B415D3C00FC2E47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EBA06C01B415D3C00FC2E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EBA06BF1B415D3C00FC2E47 /* Semi Modal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EBA06BE1B415D2F00FC2E47 /* Semi Modal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EBA06DE1B415D5500FC2E47 /* Build configuration list for PBXNativeTarget "Semi Modal" */;
+			buildPhases = (
+				1EBA06BB1B415D2F00FC2E47 /* Sources */,
+				1EBA06BC1B415D2F00FC2E47 /* Frameworks */,
+				1EBA06BD1B415D2F00FC2E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Semi Modal";
+			productName = "Semi Modal";
+			productReference = 1EBA06BF1B415D3C00FC2E47 /* Semi Modal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EBA06B71B415D2E00FC2E47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Hugh Bellamy";
+				TargetAttributes = {
+					1EBA06BE1B415D2F00FC2E47 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 1EBA06BA1B415D2E00FC2E47 /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EBA06B61B415D2E00FC2E47;
+			productRefGroup = 1EBA06C01B415D3C00FC2E47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EBA06BE1B415D2F00FC2E47 /* Semi Modal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBA06BD1B415D2F00FC2E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1C5E471B42F32E0095ACF1 /* Images.xcassets in Resources */,
+				1E1C5E441B42F32E0095ACF1 /* LaunchScreen.xib in Resources */,
+				1E1C5E451B42F32E0095ACF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EBA06BB1B415D2F00FC2E47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E1C5E4F1B42F34F0095ACF1 /* HBSemiModalStoryboardSegue.swift in Sources */,
+				1E1C5E461B42F32E0095ACF1 /* AppDelegate.swift in Sources */,
+				1E1C5E4E1B42F34F0095ACF1 /* HBSemiModalNavigationController.swift in Sources */,
+				1E1C5E511B42F34F0095ACF1 /* HBZoomSemiModalViewController.swift in Sources */,
+				1E1C5E501B42F34F0095ACF1 /* HBSlideSemiModalNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E1C5E3C1B42F32E0095ACF1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E1C5E3D1B42F32E0095ACF1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = ../Base.lproj;
+			sourceTree = "<group>";
+		};
+		1E1C5E3E1B42F32E0095ACF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E1C5E3F1B42F32E0095ACF1 /* Base */,
+			);
+			name = Main.storyboard;
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EBA06DC1B415D5500FC2E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EBA06DD1B415D5500FC2E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EBA06DF1B415D5500FC2E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EBA06E01B415D5500FC2E47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_SHADOW = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EBA06BA1B415D2E00FC2E47 /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBA06DC1B415D5500FC2E47 /* Debug */,
+				1EBA06DD1B415D5500FC2E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EBA06DE1B415D5500FC2E47 /* Build configuration list for PBXNativeTarget "Semi Modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBA06DF1B415D5500FC2E47 /* Debug */,
+				1EBA06E01B415D5500FC2E47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EBA06B71B415D2E00FC2E47 /* Project object */;
+}
